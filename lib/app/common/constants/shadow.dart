@@ -9,7 +9,7 @@ import 'package:innsouls_flutter/app/common/style/app_colors.dart';
 class Dshadowvertical{
 
   static final verticalproductShadow=BoxShadow(
-    color:Colors.grey.withOpacity(0.1),
+    color:Colors.grey.withOpacity(0.2),
     blurRadius: 50,
     spreadRadius: 7,
     offset: Offset(0,2)
