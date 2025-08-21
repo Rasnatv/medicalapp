@@ -1,7 +1,7 @@
 # medicalapp
 A modern medical consultation & health tracking app built with Flutter and powered by GetX.
 Currently, the app includes authentication and basic navigation, with upcoming features planned for doctor appointments, reports, and notifications.
-# **Figma Design:** [View Here](https://www.figma.com/file/your-figma-file-id](https://www.figma.com/design/uFPhMxr9IQBQ20sBTRgzIj/Healthcare-app--Community-?node-id=1-504&t=rraD0cz3a7T834rl-0)
+# **Figma Design:** [View Here](https://www.figma.com/design/uFPhMxr9IQBQ20sBTRgzIj/Healthcare-app--Community-?node-id=1-504&t=rraD0cz3a7T834rl-0)
 # Current Features
 * Splash Screen
 * Onboarding Screens
