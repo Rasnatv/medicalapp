@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:innsouls_flutter/app/modules/cart/views/cart_view.dart';
-import 'package:innsouls_flutter/app/modules/filter/views/filter_view.dart';
 import 'package:innsouls_flutter/app/modules/home/views/home_view.dart';
+import 'package:innsouls_flutter/app/modules/notification/views/notificationView.dart';
 import 'package:innsouls_flutter/app/modules/profile/views/profile_view.dart';
-import 'package:innsouls_flutter/app/modules/wishlist/views/wishlist_view.dart';
+import 'package:innsouls_flutter/app/modules/reports/views/reportsview.dart';
 
 class LandingController extends GetxController {
   static LandingController get to => (Get.isRegistered<LandingController>() == false) ? Get.put<LandingController>(LandingController()) : Get.find();
@@ -35,12 +34,10 @@ class LandingController extends GetxController {
     switch (selectedPage) {
       case LandingItem.home:
         return HomeView();
-      case LandingItem.wishlist:
-        return WishlistView();
-      case LandingItem.filter:
-        return FilterView();
-      case LandingItem.cart:
-        return CartView();
+      case LandingItem.reports:
+        return Reportsview();
+      case LandingItem.notification:
+        return NotificationView();
       case LandingItem.profile:
         return ProfileView();
     }
@@ -56,4 +53,4 @@ class LandingController extends GetxController {
   }
 }
 
-enum LandingItem { home, wishlist, filter, cart, profile }
+enum LandingItem { home, reports, notification, profile }

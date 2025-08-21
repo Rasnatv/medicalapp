@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:innsouls_flutter/app/common/style/app_colors.dart';
 
-
-
-
-
-
 class Dshadowvertical{
 
   static final verticalproductShadow=BoxShadow(

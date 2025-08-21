@@ -8,11 +8,20 @@ abstract class AppTextStyle {
   static final TextStyle _textNunitoBlack = _textStyleNunito.copyWith(color: AppColors.black);
   static final TextStyle _textNunitoBlue = _textStyleNunito.copyWith(color: AppColors.kPrimary);
   static final TextStyle _textNunitoWhite = _textStyleNunito.copyWith(color: AppColors.white);
+
 //raleway
   static const TextStyle _textStyleRaleway = TextStyle(fontFamily: 'Raleway', height: 1.0);
   static final TextStyle _textRalewayBlack = _textStyleRaleway.copyWith(color: AppColors.black);
   static final TextStyle _textRalewayBlue = _textStyleRaleway.copyWith(color: AppColors.kPrimary);
   static final TextStyle _textRalewayWhite = _textStyleRaleway.copyWith(color: AppColors.white);
+
+  static const TextStyle _textStylepoppins = TextStyle(fontFamily:'poppins', height: 1.0);
+  static final TextStyle _textpoppinsBlack = _textStylepoppins.copyWith(color: AppColors.black);
+  static final TextStyle _textpoppinsBlue = _textStylepoppins.copyWith(color: AppColors.kPrimary);
+  static final TextStyle _textpoppinsWhite = _textStylepoppins.copyWith(color: AppColors.white);
+  static final TextStyle _textpoppinslightblack = _textStylepoppins.copyWith(color: AppColors.lightblack);
+  static final TextStyle _textpoppinslightblue = _textStylepoppins.copyWith(color: AppColors.buttonblue);
+  static final TextStyle _textpoppinslightgrey = _textStylepoppins.copyWith(color: AppColors.Textformtext);
 
   static final TextStyle rTextNunitoBlack10w400 = _textNunitoBlack.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w400);
   static final TextStyle rTextNunitoBlack10w500 = _textNunitoBlack.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w500);
@@ -409,4 +418,208 @@ abstract class AppTextStyle {
   static final TextStyle rTextRalewayWhite28w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w500);
   static final TextStyle rTextRalewayWhite28w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w600);
   static final TextStyle rTextRalewayWhite28w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w700);
+
+  ///popoins
+  static final TextStyle rtextpoppinsBlack10w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack10w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack10w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack0w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack12w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.normal);
+  static final TextStyle rtextpoppinsBlack12w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack12w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack12w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack13w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack13wnormal = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.normal);
+  static final TextStyle rtextpoppinsBlack13w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack13w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack13w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack14w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack14w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack14w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack14w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack15w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack15w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack15w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack15w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack16w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack16w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack16w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack16w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack17w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack17w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack17w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack17w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack18w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack18w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack18w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack18w800 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w800);
+
+  static final TextStyle rtextpoppinsBlack19w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize19, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack19w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize19, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack19w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize19, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack19w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize19, fontWeight: FontWeight.w800);
+
+  static final TextStyle rtextpoppinsBlack20w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack0w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack20w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack20w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack22w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack22w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack22w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack22w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack24w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack24w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack24w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack24w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w700);
+
+  static final TextStyle rtextpoppinsBlack26w400 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w400);
+  static final TextStyle rtextpoppinsBlack26w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlack26w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack28w500 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w500);
+  static final TextStyle rtextpoppinsBlackk28w600 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w600);
+  static final TextStyle rtextpoppinsBlack28w700 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w700);
+
+//   static final TextStyle rTextRalewayBlue10w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue10w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue10w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue10w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w700);
+//
+     static final TextStyle rTextpoppinsBlue14w100 = _textpoppinsBlue.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w100);
+     static final TextStyle rTextpoppinsBlue15w200 = _textpoppinsBlue.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w200);
+     static final TextStyle rTextpoppinslightgrey12w500 = _textpoppinslightgrey.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.normal);
+  static final TextStyle rTextpoppinslightgrey12w000 = _textpoppinslightgrey.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.normal);
+//   static final TextStyle rTextRalewayBlue12w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue12w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue13w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue13w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue13w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue13w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue14w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue14w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue14w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue14w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w700);
+//
+  static final TextStyle rTextpoppinsBlue15w400 = _textpoppinsBlue.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w400);
+   static final TextStyle rTextpoppinslightBlue15w500 = _textpoppinslightblue.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue15w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue15w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue16w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue16w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue16w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue16w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue17w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue17w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue17w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue17w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue18w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue18w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue18w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue18w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue20w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue20w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue20w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue20w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue22w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue22w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue22w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue22w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue24w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue24w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue24w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue24w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayBlue26w400 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayBlue26w500 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayBlue26w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayBlue26w700 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w700);
+//
+  static final TextStyle rTextpoppinsBlue28w50 = _textpoppinsBlue.copyWith(fontSize: Dimens.fontSize30, fontWeight: FontWeight.normal);
+  static final TextStyle rTextpoppinsBlack28w100 = _textpoppinsBlack.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w700);
+//   static final TextStyle rTextRalewayBlue28w600 = _textRalewayBlue.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w600);
+  static final TextStyle rTextpoppinslightblack18w400 = _textpoppinslightblack.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.normal);
+
+
+//   static final TextStyle rTextRalewayWhite10w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite10w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite10w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite10w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize10, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite12w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite12w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite12w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite12w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize12, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite13w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite13w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite13w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite13w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize13, fontWeight: FontWeight.w700);
+//
+   static final TextStyle rTextpoppinsWhite14w400 = _textpoppinsWhite.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w400);
+  static final TextStyle rTextpoppinsWhite15w400 = _textpoppinsWhite.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite14w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite14w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite14w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize14, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite15w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite15w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite15w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite15w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize15, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite16w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite16w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite16w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite16w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize16, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite17w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite17w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite17w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite17w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize17, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite18w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite18w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite18w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite18w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize18, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite20w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite20w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite20w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite20w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize20, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite22w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite22w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite22w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite22w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize22, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite24w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite24w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite24w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite24w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize24, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite26w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite26w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite26w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite26w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize26, fontWeight: FontWeight.w700);
+//
+//   static final TextStyle rTextRalewayWhite28w400 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w400);
+//   static final TextStyle rTextRalewayWhite28w500 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w500);
+//   static final TextStyle rTextRalewayWhite28w600 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w600);
+//   static final TextStyle rTextRalewayWhite28w700 = _textRalewayWhite.copyWith(fontSize: Dimens.fontSize28, fontWeight: FontWeight.w700);
+// }
 }

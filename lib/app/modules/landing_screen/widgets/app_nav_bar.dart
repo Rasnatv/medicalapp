@@ -17,12 +17,11 @@ class AppNavBar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            AppNavItem(iconPath: AppIcons.homeIcon, value: LandingItem.home, padding: EdgeInsets.only(left: 14.sp)),
-            AppNavItem(iconPath: AppIcons.wishlistIcon, value: LandingItem.wishlist),
-            AppNavItem(iconPath: AppIcons.filterIcon, value: LandingItem.filter),
-            AppNavItem(iconPath: AppIcons.cartIcon, value: LandingItem.cart),
-            AppNavItem(iconPath: AppIcons.profileIcon, value: LandingItem.profile, padding: EdgeInsets.only(right: 14.sp))
-          ],
+            AppNavItem(iconPath: AppIcons.homeIcon, value: LandingItem.home, padding: EdgeInsets.only(left: 14.sp,), label: 'Home',),
+            AppNavItem(iconPath: AppIcons.reportsicon, value: LandingItem.reports ,label: 'Reports',),
+            AppNavItem(iconPath: AppIcons.notificationicon, value: LandingItem.notification, label: 'Notification',),
+            AppNavItem(iconPath: AppIcons.profileIcon, value: LandingItem.profile,label: 'Profile',padding: EdgeInsets.only(right: 14.sp,),
+            )],
         ),
       ),
     );

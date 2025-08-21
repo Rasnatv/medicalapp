@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 abstract class AppColors {
-  static const kPrimary = Color(0xff004BFE);
+  static const kPrimary = Color(0xff0a4dea);
   static const kSecondary = Color(0xffffffff);
   static const kScaffoldBackground = Color(0xffffffff);
   static const white = Color(0xffffffff);
@@ -13,9 +13,11 @@ abstract class AppColors {
   static const grayBackground = Color(0xFFF8F8F8);
   static const grayButton = Color(0xFF707070);
   static const grayText = Color(0xFFC7C7C7);
-
-  
-  
+  static const lightblack= Color(0xFF4F4848);
+  static const buttonblue= Color(0xFF307FE7);
+  static const border= Color(0xFFE7E3E3);
+  static const Textformtext= Color(0xFFA6A3A3);
+  static const containerblue= Color(0xFF2060E3);
 
   static const MaterialColor kPrimarySwatch = MaterialColor(
     0xffD9E4FF,
