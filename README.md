@@ -1,4 +1,4 @@
-# innsouls_flutter
+# medicalapp
 
 A new Flutter project.
 
